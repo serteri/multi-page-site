@@ -1,13 +1,12 @@
 
-var App = function App() {
-  return React.createElement(
-    Template,
-    null,
-    React.createElement(
-      'h1',
-      { className: 'main' },
-      'Main content'
-    )
+const App = () => {
+    return (
+      <Template>
+        <h1 className='main'>Main content</h1>
+      </Template>
+    );
+  }
+  ReactDOM.render(
+    <App />,
+    document.getElementById('root')
   );
-};
-ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
