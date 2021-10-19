@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: space-around;
+}
+
+.nav-link{
+    margin-left: 1rem;
+}
+.main{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+.links{
+    margin-left: 2rem;
+}
